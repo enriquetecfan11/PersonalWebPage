@@ -94,3 +94,8 @@ body {
 .button:hover {
   background-color: #1d78ff;
 }
+
+.img {
+  max-height: 250px;
+  max-width: 250px;
+}
