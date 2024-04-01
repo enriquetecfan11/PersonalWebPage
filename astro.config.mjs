@@ -30,7 +30,7 @@ if (isBuild) {
 export default defineConfig({
   server: { port: SERVER_PORT },
   site: 'https://github.com/enriquetecfan11/PersonalWebPage',
-  base: 'personalwebpage'
+  base: 'src',
   integrations: [
     sitemap(),
     tailwind({
